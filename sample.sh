@@ -6,7 +6,7 @@ TYPE=$(curl -sL http://169.254.169.254/latest/meta-data/instance-type)
 ID=$(curl -sL http://169.254.169.254/latest/meta-data/instance-id)
 
 echo "The public host name is $PH"
-echo "$PIP"
+echo "The public ip is $PIP"
 echo "$PSG"
 echo "$TYPE"
 echo "$ID" 
